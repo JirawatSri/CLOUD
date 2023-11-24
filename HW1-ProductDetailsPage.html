@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title>
+            HW1-ProductDetailsPage
+        </title>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                border: 1px solid #e7e7e7;
+                background-color: #f3f3f3;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: grey;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active){
+                background-color: #ddd;
+            }
+
+            li a.active{
+                color: white;
+                background-color: lightsalmon;
+            }
+        </style>
+        <link rel="stylesheet" href="HW1-ProductDetailsPage.css"/>
+    </head>
+
+    <body>
+        <header>
+            <h1>Product Details</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="HW1-HomePage.html">Home</a></li>
+                <li><a class = "active" href="#productdetail">Products</a></li>
+                <li><a href="HW1-ContactUsPage.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <article class="row">
+                    <article class="column">
+                        <img src="Images/Ultraman.jpg" alt="Ultraman">
+                        <h2>BANPRESTO SHIN ULTRAMAN HERO S BRAVE STATUE FIGURE SHIN ULTRAMAN</h2>
+                        Brand: Bandai
+                        <div class="more">
+                        Price: 675.00 Bath
+                        <p><button>Add to Cart</button></p>
+                        </div>
+                    </article>
+                    <article class="column">
+                        <img src="Images/AllMight.jpg" alt="AllMight">
+                        <h2>BANPRESTO MY HERO ACADEMIA AGE OF HEROES ALL MIGHT FIGURE</h2>
+                        Brand: Bandai
+                        <div class="more">
+                        Price: 1,025.5 Bath
+                        <p><button>Add to Cart</button></p>
+                        </div>
+                    </article>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <h1>Banpresto Figures Best Prices</h1>
+        </footer>
+    </body>
+</html>

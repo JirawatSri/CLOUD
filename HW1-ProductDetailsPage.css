@@ -1,0 +1,30 @@
+header{
+    background-color: lightsalmon;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+footer{
+    background-color: lightsalmon;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    border-style: dashed;
+    border-width: 1px;
+    border-color: grey;
+    width: 50%;
+    padding: 10px;
+}
+
+.more{
+    font-weight: 600;
+    display:block;
+    color: darkslateblue;
+}
